@@ -8,23 +8,23 @@ using UnityEngine.SceneManagement;
 public class SakumsScript : MonoBehaviour {
 	public GameObject Play;
 	public GameObject Exit;
-	public GameObject MortyBtn;
-	public GameObject RickBtn;
-	public GameObject Back;
+	public GameObject dropdown;
+	public GameObject Rick;
+	public GameObject Morty;
+
 
 	public void playBtn(){
-		Play.SetActive (false);
-		Exit.SetActive (false);
-		Back.SetActive (true);
-		MortyBtn.SetActive (true);
-		RickBtn.SetActive (true);
+		mortyBtn ();
 	}
-	public void backBtn(){
-		Play.SetActive (true);
-		Exit.SetActive (true);
-		Back.SetActive (false);
-		MortyBtn.SetActive (false);
-		RickBtn.SetActive (false);
+	public void mainaTelu (int indekss){
+		if (indekss == 0) {
+			Rick.SetActive (false);
+			Morty.SetActive (true);
+		}
+		if (indekss == 1) {
+			Rick.SetActive (true);
+			Morty.SetActive (false);
+		}
 	}
 	public void exitBtn(){
 		Application.Quit();
