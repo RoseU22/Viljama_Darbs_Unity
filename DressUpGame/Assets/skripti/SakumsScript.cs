@@ -13,6 +13,7 @@ public class SakumsScript : MonoBehaviour {
 		SceneManager.LoadScene("MortyScene", LoadSceneMode.Single);
 	}
 	public void menu(){
+		
 		SceneManager.LoadScene("Sakums", LoadSceneMode.Single);
 	}
 

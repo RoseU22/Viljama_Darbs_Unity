@@ -16,6 +16,7 @@ public class AtteluParadisana : MonoBehaviour {
     public GameObject IzmeraSlaideris;
 	public GameObject RotacijasSlaideris;
 
+
 	public void BinaAttels(bool vertiba)
 	{
 		bins.SetActive(vertiba);
