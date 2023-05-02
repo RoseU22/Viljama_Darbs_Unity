@@ -19,33 +19,125 @@ Platform assembly: C:\Users\Viljams\Desktop\Pd_darbs_ar_UI_-unity\DressUpGame\Ri
 Loading C:\Users\Viljams\Desktop\Pd_darbs_ar_UI_-unity\DressUpGame\Rick&Morty_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll into Unity Child Domain
 Platform assembly: C:\Users\Viljams\Desktop\Pd_darbs_ar_UI_-unity\DressUpGame\Rick&Morty_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
 Loading C:\Users\Viljams\Desktop\Pd_darbs_ar_UI_-unity\DressUpGame\Rick&Morty_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
-- Completed reload, in  0.328 seconds
+- Completed reload, in  0.307 seconds
 Platform assembly: C:\Users\Viljams\Desktop\Pd_darbs_ar_UI_-unity\DressUpGame\Rick&Morty_Data\Managed\System.Core.dll (this message is harmless)
 Platform assembly: C:\Users\Viljams\Desktop\Pd_darbs_ar_UI_-unity\DressUpGame\Rick&Morty_Data\Managed\System.dll (this message is harmless)
 desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
 <RI> Initialized touch support.
-UnloadTime: 0.706500 ms
+UnloadTime: 0.910400 ms
 Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 4.162300 ms
+UnloadTime: 4.030700 ms
 
 Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 605.
-Total: 0.573100 ms (FindLiveObjects: 0.017400 ms CreateObjectMapping: 0.009600 ms MarkObjects: 0.238100 ms  DeleteObjects: 0.304500 ms)
+Total: 0.732400 ms (FindLiveObjects: 0.024800 ms CreateObjectMapping: 0.008600 ms MarkObjects: 0.276000 ms  DeleteObjects: 0.420700 ms)
 
-Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 0.992300 ms
+NullReferenceException: Object reference not set to an instance of an object
+  at atteluMainisana.pants2Attels (Boolean vertiba) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.InvokableCall`1[System.Boolean].Invoke (System.Object[] args) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.InvokableCallList.Invoke (System.Object[] parameters) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.UnityEventBase.Invoke (System.Object[] parameters) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.UnityEvent`1[System.Boolean].Invoke (Boolean arg0) [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.Toggle.Set (Boolean value, Boolean sendCallback) [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.Toggle.Set (Boolean value) [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.Toggle.set_isOn (Boolean value) [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.Toggle.InternalToggle () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.Toggle.OnPointerClick (UnityEngine.EventSystems.PointerEventData eventData) [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.ExecuteEvents.Execute (IPointerClickHandler handler, UnityEngine.EventSystems.BaseEventData eventData) [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.ExecuteEvents.Execute[IPointerClickHandler] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.EventFunction`1 functor) [0x00000] in <filename unknown>:0 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMousePress(MouseButtonEventData)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent(Int32)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent()
+UnityEngine.EventSystems.StandaloneInputModule:Process()
+UnityEngine.EventSystems.EventSystem:Update()
+ 
+(Filename:  Line: -1)
 
-Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 286.
-Total: 0.776000 ms (FindLiveObjects: 0.011200 ms CreateObjectMapping: 0.005800 ms MarkObjects: 0.108100 ms  DeleteObjects: 0.650600 ms)
+NullReferenceException: Object reference not set to an instance of an object
+  at atteluMainisana.pants2Attels (Boolean vertiba) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.InvokableCall`1[System.Boolean].Invoke (System.Object[] args) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.InvokableCallList.Invoke (System.Object[] parameters) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.UnityEventBase.Invoke (System.Object[] parameters) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.UnityEvent`1[System.Boolean].Invoke (Boolean arg0) [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.Toggle.Set (Boolean value, Boolean sendCallback) [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.Toggle.Set (Boolean value) [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.Toggle.set_isOn (Boolean value) [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.Toggle.InternalToggle () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.Toggle.OnPointerClick (UnityEngine.EventSystems.PointerEventData eventData) [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.ExecuteEvents.Execute (IPointerClickHandler handler, UnityEngine.EventSystems.BaseEventData eventData) [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.ExecuteEvents.Execute[IPointerClickHandler] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.EventFunction`1 functor) [0x00000] in <filename unknown>:0 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMousePress(MouseButtonEventData)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent(Int32)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent()
+UnityEngine.EventSystems.StandaloneInputModule:Process()
+UnityEngine.EventSystems.EventSystem:Update()
+ 
+(Filename:  Line: -1)
 
-Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 0.255400 ms
+NullReferenceException: Object reference not set to an instance of an object
+  at atteluMainisana.pants2Attels (Boolean vertiba) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.InvokableCall`1[System.Boolean].Invoke (System.Object[] args) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.InvokableCallList.Invoke (System.Object[] parameters) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.UnityEventBase.Invoke (System.Object[] parameters) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.UnityEvent`1[System.Boolean].Invoke (Boolean arg0) [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.Toggle.Set (Boolean value, Boolean sendCallback) [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.Toggle.Set (Boolean value) [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.Toggle.set_isOn (Boolean value) [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.Toggle.InternalToggle () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.Toggle.OnPointerClick (UnityEngine.EventSystems.PointerEventData eventData) [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.ExecuteEvents.Execute (IPointerClickHandler handler, UnityEngine.EventSystems.BaseEventData eventData) [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.ExecuteEvents.Execute[IPointerClickHandler] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.EventFunction`1 functor) [0x00000] in <filename unknown>:0 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMousePress(MouseButtonEventData)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent(Int32)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent()
+UnityEngine.EventSystems.StandaloneInputModule:Process()
+UnityEngine.EventSystems.EventSystem:Update()
+ 
+(Filename:  Line: -1)
 
-Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 606.
-Total: 0.720800 ms (FindLiveObjects: 0.023100 ms CreateObjectMapping: 0.012200 ms MarkObjects: 0.310500 ms  DeleteObjects: 0.374500 ms)
+NullReferenceException: Object reference not set to an instance of an object
+  at atteluMainisana.pants2Attels (Boolean vertiba) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.InvokableCall`1[System.Boolean].Invoke (System.Object[] args) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.InvokableCallList.Invoke (System.Object[] parameters) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.UnityEventBase.Invoke (System.Object[] parameters) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.UnityEvent`1[System.Boolean].Invoke (Boolean arg0) [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.Toggle.Set (Boolean value, Boolean sendCallback) [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.Toggle.Set (Boolean value) [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.Toggle.set_isOn (Boolean value) [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.Toggle.InternalToggle () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.Toggle.OnPointerClick (UnityEngine.EventSystems.PointerEventData eventData) [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.ExecuteEvents.Execute (IPointerClickHandler handler, UnityEngine.EventSystems.BaseEventData eventData) [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.ExecuteEvents.Execute[IPointerClickHandler] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.EventFunction`1 functor) [0x00000] in <filename unknown>:0 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMousePress(MouseButtonEventData)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent(Int32)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent()
+UnityEngine.EventSystems.StandaloneInputModule:Process()
+UnityEngine.EventSystems.EventSystem:Update()
+ 
+(Filename:  Line: -1)
 
 Setting up 3 worker threads for Enlighten.
-  Thread -> id: 560 -> priority: 1 
-  Thread -> id: 26c0 -> priority: 1 
-  Thread -> id: 9e0 -> priority: 1 
+  Thread -> id: 3130 -> priority: 1 
+  Thread -> id: 40ec -> priority: 1 
+  Thread -> id: 2918 -> priority: 1 

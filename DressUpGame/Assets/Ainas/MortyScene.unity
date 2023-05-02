@@ -4160,7 +4160,7 @@ MonoBehaviour:
   shirt1Img: {fileID: 782775432}
   shirt2Img: {fileID: 2133945284}
   pants1Img: {fileID: 2066617053}
-  pants2Img: {fileID: 0}
+  pants2Img: {fileID: 12073247}
   Text1: {fileID: 0}
 --- !u!4 &1290004800
 Transform:
